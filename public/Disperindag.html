@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-200">
+    <div class="flex flex-col h-screen">
+        <!-- Header -->
+        <header class="bg-white shadow-md p-4 flex justify-between items-center">
+            <h1 class="text-lg font-bold text-gray-700">SIBAPUK | Admin</h1>
+            <div class="w-32 h-6 bg-gray-300 rounded"></div> <!-- Tempat Nama Akun -->
+        </header>
+
+        <div class="flex flex-1">
+            <!-- Sidebar -->
+            <aside class="w-64 bg-gray-100 p-4">
+                <nav>
+                    <ul>
+                        <li class="mb-2">
+                            <a href="Dashboard.html" class="block py-2 px-4 rounded bg-gray-200 text-gray-700">Dashboard</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="Disperindag.html" class="block py-2 px-4 rounded bg-orange-500 text-white">Disperindag</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="DKPP.html" class="block py-2 px-4 rounded bg-gray-200 text-gray-700">DKPP</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="DTPHP.html" class="block py-2 px-4 rounded bg-gray-200 text-gray-700">DTPHP</a>
+                        </li>
+                        <li>
+                            <a href="Perikanan.html" class="block py-2 px-4 rounded bg-gray-200 text-gray-700">Perikanan</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Content -->
+            <main class="flex-1 p-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-lg font-semibold text-gray-700 mb-4">Data Disperindag</h2>
+
+                    <!-- Data -->
+                    <div class="w-full h-64 bg-gray-100 rounded flex items-center justify-center">
+                        <p class="text-gray-400">[Data]</p>
+                    </div>
+
+                    <!-- opsi dan button detail -->
+                    <div class="flex justify-between items-center mt-4">
+                        <select class="border p-2 rounded bg-gray-100">
+                            <option>Last 7 days</option>
+                        </select>
+                        <button class="bg-gray-700 text-white px-4 py-2 rounded">Lihat detail</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
